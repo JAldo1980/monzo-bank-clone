@@ -5,6 +5,7 @@ import BannerTop from "./components/BannerTop";
 import Hero from "./components/Hero";
 import SocialProof from "./components/SocialProof";
 import USP from "./components/USP";
+import SaveSpendManage from "./components/SaveSpendManage";
 import "./styles/style.css";
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <Hero />
         <SocialProof />
         <USP />
+        <SaveSpendManage />
       </Container>
     </>
   );
