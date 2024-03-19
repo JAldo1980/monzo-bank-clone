@@ -23,24 +23,26 @@ const Nav = () => {
   }
 
   return (
-    <div className="bg-black relative">
-      <div className="flex items-center p-2">
-        <img
-          src="/public/images/monzo-logo-on-dark.svg"
-          className="h-14 border-r border-green-900 border-opacity-90"
-          alt="monzo logo"
-        />
-        <NavItem />
+    <div className="bg-black">
+      <div className="bg-black relative mx-auto container lg">
+        <div className="flex items-center p-2 ">
+          <img
+            src="/public/images/monzo-logo-on-dark.svg"
+            className="h-14 border-r border-green-900 border-opacity-90"
+            alt="monzo logo"
+          />
+          <NavItem />
+        </div>
+        {isMobileButtonVisible && (
+          <button
+            className="text-white font-bold py-2 px-4 rounded absolute top-4 right-2 z-10"
+            onClick={handleMobileNav}
+          >
+            {isMobileNavVisible ? "X" : "Menu"}{" "}
+          </button>
+        )}
+        {isMobileNavVisible && <MobileNav />}
       </div>
-      {isMobileButtonVisible && (
-        <button
-          className="text-white font-bold py-2 px-4 rounded absolute top-4 right-2 z-10"
-          onClick={handleMobileNav}
-        >
-          {isMobileNavVisible ? "X" : "Menu"}{" "}
-        </button>
-      )}
-      {isMobileNavVisible && <MobileNav />}
     </div>
   );
 };

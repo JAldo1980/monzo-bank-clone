@@ -3,8 +3,8 @@ import Button from "./Button";
 
 const USP = () => {
   return (
-    <>
-      <div className="mt-24 flex flex-col gap-20 items-center text-center md:grid md:grid-cols-2 lg:grid-cols-3">
+    <div className="">
+      <div className="mt-24 flex flex-col gap-20 items-center text-center mx-auto container lg md:grid md:grid-cols-2 lg:grid-cols-3 ">
         <div className="flex flex-col gap-4 items-center text-center">
           <img
             src="https://images.ctfassets.net/ro61k101ee59/4Ah1IQN3qLznNZHzDsMNOW/44fffa72954be7b467e1d944969cf229/Account_Snippet.png?w=600"
@@ -43,7 +43,7 @@ const USP = () => {
           label="Open a Monzo account"
         />
       </div>
-    </>
+    </div>
   );
 };
 
