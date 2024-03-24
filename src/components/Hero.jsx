@@ -14,7 +14,7 @@ const Hero = () => {
               UK bank account from your phone, for free.
             </p>
           </div>
-          <button className="bg-green-600 mt-4 p-2 rounded text-white text-xl font-bold xl:w-6/12 rounded">
+          <button className="bg-green-600 mt-4 p-2 rounded text-white text-xl font-bold xl:w-6/12 rounded hover:bg-green-700">
             Open a Monzo account
           </button>
           <p className="text-white font-bold mt-4">

@@ -18,7 +18,7 @@ const CardsOne = () => {
             </p>
 
             <Button
-              className="bg-blue-300 font-bold text-white cursor-pointer w-4/6 mt-6 py-4 px-4 rounded-md"
+              className="bg-blue-300 font-bold text-white cursor-pointer w-4/6 mt-6 py-4 px-4 rounded-md hover:bg-blue-400"
               type="button"
               label="Explore Monzo Premium"
             ></Button>
@@ -51,7 +51,7 @@ const CardsOne = () => {
               3 month minimum • Must be aged 18+ • TsCs apply",
             </p>
             <Button
-              className="bg-blue-300 font-bold text-white cursor-pointer w-4/6 mt-6 py-4 px-4 rounded-md"
+              className="bg-blue-300 font-bold text-white cursor-pointer w-4/6 mt-6 py-4 px-4 rounded-md hover:bg-blue-400"
               type="button"
               label="Explore Monzo Plus"
             ></Button>
@@ -70,7 +70,7 @@ const CardsOne = () => {
               charges.
             </p>
             <Button
-              className="bg-blue-300 font-bold text-white cursor-pointer w-4/6 mt-6 py-4 px-4 rounded-md"
+              className="bg-blue-300 font-bold text-white cursor-pointer w-4/6 mt-6 py-4 px-4 rounded-md hover:bg-blue-400"
               type="button"
               label="Travelling with Monzo"
             ></Button>

@@ -26,7 +26,7 @@ const SaveSpendManage = () => {
               next working day!
             </p>
             <Button
-              className="bg-blue-300 font-bold text-white cursor-pointer w-4/6 mt-6 py-4 px-4 rounded-md"
+              className="bg-blue-300 font-bold text-white cursor-pointer w-4/6 mt-6 py-4 px-4 rounded-md hover:bg-blue-400"
               type="button"
               label="Saving with Monzo"
             ></Button>

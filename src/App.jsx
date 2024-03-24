@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React from "react";
 import Container from "./components/Container";
 import Nav from "./components/Nav";
 import BannerTop from "./components/BannerTop";
@@ -8,6 +8,7 @@ import USP from "./components/USP";
 import SaveSpendManage from "./components/SaveSpendManage";
 import CardsOne from "./components/CardsOne";
 import CardsTwo from "./components/CardsTwo";
+import Footer from "./components/Footer";
 import "./styles/style.css";
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
         <SaveSpendManage />
         <CardsOne />
         <CardsTwo />
+        <Footer />
       </Container>
     </>
   );

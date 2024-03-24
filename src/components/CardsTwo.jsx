@@ -26,7 +26,7 @@ const CardsTwo = () => {
               payments.
             </p>
             <Button
-              className="bg-blue-300 font-bold text-white cursor-pointer w-4/6 mt-6 py-4 px-4 rounded-md"
+              className=" bg-blue-300 font-bold text-white cursor-pointer w-4/6 my-6 py-4 px-4 rounded-md hover:bg-blue-400"
               type="button"
               label="Explore Monzo Flex"
             ></Button>
@@ -54,7 +54,7 @@ const CardsTwo = () => {
               payments.
             </p>
             <Button
-              className="bg-blue-300 font-bold text-white cursor-pointer w-4/6 mt-6 py-4 px-4 rounded-md"
+              className="bg-blue-300 font-bold text-white cursor-pointer w-4/6 my-6 py-4 px-4 rounded-md hover:bg-blue-400"
               type="button"
               label="Explore Monzo Flex"
             ></Button>
@@ -96,7 +96,7 @@ const CardsTwo = () => {
               what to look out for can help stop them.
             </p>
             <Button
-              className="bg-blue-300 font-bold text-white cursor-pointer w-4/6 mt-6 py-4 px-4 rounded-md"
+              className="bg-blue-300 font-bold text-white cursor-pointer w-4/6 my-6 py-4 px-4 rounded-md hover:bg-blue-400"
               type="button"
               label="Protect yourself from fraud"
             ></Button>
@@ -115,7 +115,7 @@ const CardsTwo = () => {
               customers trust us to keep their money safe.
             </p>
             <Button
-              className="bg-blue-300 font-bold text-white cursor-pointer w-4/6 mt-6 py-4 px-4 rounded-md"
+              className="my-12 bg-blue-300 font-bold text-white cursor-pointer w-4/6 mt-6 py-4 px-4 rounded-md hover:bg-blue-400"
               type="button"
               label="Find out more"
             ></Button>
