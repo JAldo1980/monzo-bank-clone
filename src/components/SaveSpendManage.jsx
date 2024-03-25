@@ -14,7 +14,9 @@ const SaveSpendManage = () => {
             />
           </div>
           <div>
-            <h3 className="mt-6 text-3xl md:text-4xl font-extrabold">Save</h3>
+            <h3 className="mt-6 mb-4 text-xl md:text-4xl font-extrabold">
+              Save
+            </h3>
             <p className="text-lg md:text-xl">
               Earn up to 4.90% (AER/Gross fixed) interest on your savings.
               That’s on a 6-month Fixed Pot with a £500 minimum deposit to open.
@@ -35,7 +37,9 @@ const SaveSpendManage = () => {
         {/* card 2 */}
         <div className="mt-12 bg-white rounded-3xl p-8 grid gap-6 md:grid md:grid-cols-2 md:items-center">
           <div>
-            <h3 className="mt-6 text-3xl md:text-4xl font-extrabold">Spend</h3>
+            <h3 className="mt-6 mb-4 text-3xl md:text-4xl font-extrabold">
+              Spend
+            </h3>
             <p className="text-lg md:text-xl">
               Get instant notifications the second you pay. Set budgets for
               things like groceries and going out, and get warnings if you’re
@@ -60,7 +64,9 @@ const SaveSpendManage = () => {
             />
           </div>
           <div>
-            <h3 className="mt-6 text-3xl md:text-4xl font-extrabold">Manage</h3>
+            <h3 className="mt-6 mb-4  text-3xl md:text-4xl font-extrabold">
+              Manage
+            </h3>
             <p className="text-lg md:text-xl">
               Pay Direct Debits through Monzo and we’ll tell you if they’re
               higher for the upcoming month. So no nasty surprises.
