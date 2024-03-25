@@ -25,7 +25,7 @@ const CardsOne = () => {
           </div>
           <div>
             <img
-              src="/public/cardImages/premium-img-1.avif"
+              src="/public/premium-img-1.avif"
               alt="save-icon"
               className="h-5/4 w-5/4" // Adjusted size here
             />
@@ -35,7 +35,7 @@ const CardsOne = () => {
         <div className="mt-12 bg-white rounded-3xl p-8 grid gap-6 md:grid md:grid-cols-2 md:items-center">
           <div>
             <img
-              src="/public/cardImages/plus-img.avif"
+              src="/public/plus-img.avif"
               alt="spend-icon"
               className="h-5/4 w-5/4" // Adjusted size here
             />
@@ -77,7 +77,7 @@ const CardsOne = () => {
           </div>
           <div>
             <img
-              src="/public/cardImages/travelling-img.avif"
+              src="/public/travelling-img.avif"
               alt="manage-icon"
               className="h-5/4 w-5/4" // Adjusted size here
             />

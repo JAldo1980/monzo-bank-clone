@@ -21,14 +21,14 @@ const Hero = () => {
             UK residents only Ts &amp; Cs apply.
           </p>
           <img
-            src="/public/images/BBA_Winner_White_300dpi_Best_banking_app.png"
+            src="/public/BBA_Winner_White_300dpi_Best_banking_app.png"
             className="w-8/12 h-auto mt-4 xl:w-6/12 "
             alt="winner-best-banking-app"
           />
         </div>
 
         <div>
-          <img src="/public/images/Home_Hero.png" className="p-8" alt="" />
+          <img src="/public/Home_Hero.png" className="p-8" alt="" />
         </div>
       </div>
     </div>

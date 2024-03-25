@@ -5,17 +5,13 @@ const SocialProof = () => {
     <div className="bg-red-50 ">
       <div className="py-12 px-4 bg-red-50 flex flex-col justify-center gap-12 mx-auto container lg">
         <div className=" flex justify-center gap-4">
+          <img src="/public/cass-logo.png" className="h-12" alt="cass-logo" />
           <img
-            src="/public/images/cass-logo.png"
-            className="h-12"
-            alt="cass-logo"
-          />
-          <img
-            src="/public/images/direct-debit.png"
+            src="/public/direct-debit.png"
             className="h-12"
             alt="direct-debit-logo"
           />
-          <img src="/public/images/fscs.png" className="h-12" alt="fscs-logo" />
+          <img src="/public/fscs.png" className="h-12" alt="fscs-logo" />
         </div>
         <div className="flex flex justify-center items-center gap-4">
           <img
@@ -32,12 +28,12 @@ const SocialProof = () => {
         </div>
         <div className="flex justify-center gap-4">
           <img
-            src="/public/images/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg"
+            src="/public/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg"
             className="w-36"
             alt="apple-store-icon"
           />
           <img
-            src="/public/images/google-play-badge.png"
+            src="/public/google-play-badge.png"
             className="w-44"
             alt="google-play-icon"
           />

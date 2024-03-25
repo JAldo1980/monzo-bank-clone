@@ -9,7 +9,7 @@ const CardsTwo = () => {
         <div className="bg-blue-100 rounded-3xl p-8 grid gap-6 md:grid md:grid-cols-2 md:items-center">
           <div>
             <img
-              src="/public/cardImages/credit-img.avif"
+              src="/public/credit-img.avif"
               alt="credit-icon"
               className="h-5/4 w-5/4" // Adjusted size here
             />
@@ -68,7 +68,7 @@ const CardsTwo = () => {
           </div>
           <div>
             <img
-              src="/public/cardImages/borrowing-img.avif"
+              src="/public/borrowing-img.avif"
               alt="borrowing-icon"
               className="h-5/4 w-5/4" // Adjusted size here
             />
@@ -79,7 +79,7 @@ const CardsTwo = () => {
         <div className="mt-12 bg-blue-100 rounded-3xl p-8 grid gap-6 md:grid md:grid-cols-2 md:items-center">
           <div>
             <img
-              src="/public/cardImages/fraud-lock-icons-img.png"
+              src="/public/fraud-lock-icons-img.png"
               alt="fraud-icon"
               className="h-5/4 w-5/4" // Adjusted size here
             />
@@ -122,7 +122,7 @@ const CardsTwo = () => {
           </div>
           <div>
             <img
-              src="/public/cardImages/illus_safe@2x-img.png"
+              src="/public/illus_safe@2x-img.png"
               alt="safe-icon"
               className="h-5/4 w-5/4" // Adjusted size here
             />

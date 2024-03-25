@@ -29,7 +29,7 @@ const Footer = () => {
       >
         {/* grid 1 */}
         <img
-          src="/public/images/monzo-logo-on-dark.svg"
+          src="/public/monzo-logo-on-dark.svg"
           className="h-14 "
           alt="monzo-logo-footer"
         />
@@ -80,12 +80,12 @@ const Footer = () => {
         {/* grid 2 */}
         <div className="flex justify-center gap-4">
           <img
-            src="/public/images/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg"
+            src="/public/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg"
             className="w-36 cursor-pointer"
             alt="apple-store-icon"
           />
           <img
-            src="/public/images/google-play-badge.png"
+            src="/public/google-play-badge.png"
             className="w-44 cursor-pointer"
             alt="google-play-icon"
           />
