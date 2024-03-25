@@ -6,7 +6,7 @@ const MobileNav = () => {
     <div className="bg-gray-700 absolute top-0 right-0 w-5/6 h-screen lg:hidden">
       <div>
         <img
-          src="/public/monzo-logo-on-light.svg"
+          src="/monzo-logo-on-light.svg"
           className="mt-2 h-14"
           alt="monzo-mobile-menu-logo"
         />
